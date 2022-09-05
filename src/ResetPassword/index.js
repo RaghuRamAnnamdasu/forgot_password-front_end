@@ -56,7 +56,7 @@ export function ResetPassword(){
     return(
         <div className="resetPassword">
         <div className="iconWrapperr">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/512px-Stack_Overflow_icon.svg.png" alt="" />
+            <img src="https://play-lh.googleusercontent.com/oeVIBqxeSBWzTTZgOoJfbR-vXtzku_cE3RJNLFsDDrc9rAN4bBvBslC-NaFPll6KQIk=s180" alt="" />
         </div>
         <form className="resetContent" onSubmit={(e) => onReset(e)}>
             {invalidErrorMessage && <div className="invalidErrorMessage">{invalidErrorMessage}</div>}
